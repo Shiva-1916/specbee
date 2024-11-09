@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('modalName').textContent = card.dataset.name;
       document.getElementById('modalTitle').textContent = card.dataset.title;
       document.getElementById('modalCompany').textContent = card.dataset.company;
-      document.getElementById('modalDescription').textContent = card.dataset.description;
       document.getElementById('modalImage').src = card.querySelector('img').src;
       document.getElementById('description').textContent = "Monotonectally synergize business communities rather than client-centric convergence. Assertively unleash cross-platform best practices rather than pandemic total linkage.";
 
