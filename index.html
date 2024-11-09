@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Featured Speakers</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <section class="speakers-section">
+    <h2>View our Featured Speakers for the Event</h2>
+    <p>
+      Speakers are core contributors and industry thought leaders working at <a href="#">companies</a> that push for innovation..
+    </p>
+
+    
+    <div class="modal" id="selectedSpeaker" hidden>
+      <span class="close" onclick="closeModal()">×</span>
+      <div>
+        <img id="modalImage" src="" alt="Speaker Image">
+      </div>
+      <div style="border-right: 1px solid black;">
+      <h3 id="modalName"></h3>
+      <p id="modalTitle"></p>
+      <p id="modalCompany"></p>
+      <p id="modalDescription"></p>
+      <div class="social-icons">
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+      </div>
+      <div>
+        <p id="description"></p>
+      </div>
+    </div>
+
+   
+    <div class="carousel">
+      <button class="carousel-control left" aria-label="Previous">❮</button>
+      <div class="carousel-track">
+       
+        <div class="speaker-card" data-name="John Doe" data-title="CMO" data-company="Acme Corp"
+          data-description="An industry leader...">
+          <img src="https://img.freepik.com/premium-photo/sales-manager-digital-avatar-generative-ai_934475-9373.jpg" alt="John Doe">
+          <h3>John Doe</h3>
+          <p>Chief Marketing Officer</p>
+          <p>panther</p>
+        </div>
+        
+
+        <div class="speaker-card" data-name="John Doe" data-title="Chief Engagement Officer" data-company="Acquia"
+          data-description="An industry leader...">
+          <img src="https://img.freepik.com/premium-photo/account-manager-digital-avatar-generative-ai_934475-9188.jpg" alt="John Doe">
+          <h3>John Doe</h3>
+          <p>Chief Engagement Officer</p>
+          <p>Acquia</p>
+        </div>
+
+        <div class="speaker-card" data-name="John Doe" data-title="Chief Technical Developer" data-company="Pantheon"
+          data-description="An industry leader...">
+          <img src="https://img.freepik.com/premium-photo/market-research-analyst-digital-avatar-generative-ai_934475-9305.jpg" alt="John Doe">
+          <h3>John Doe</h3>
+          <p>Chief Technical Developer</p>
+          <p>Pantheon</p>
+        </div>
+
+        <div class="speaker-card" data-name="John Doe" data-title="Chief Marketing Officer" data-company="Specbee"
+          data-description="An industry leader...">
+          <img src="https://th.bing.com/th/id/OIP.0MZQDk4bE8RU2MeeG3sq8AHaHa?w=626&h=626&rs=1&pid=ImgDetMain" alt="John Doe">
+          <h3>John Doe</h3>
+          <p>Chief Marketing Officer</p>
+          <p>panther</p>
+        </div>
+
+        <div class="speaker-card" data-name="John Doe" data-title="CMO" data-company="Acme Corp"
+          data-description="An industry leader...">
+          <img src="https://img.freepik.com/premium-photo/sales-manager-digital-avatar-generative-ai_934475-9373.jpg" alt="John Doe">
+          <h3>John Doe</h3>
+          <p>Chief Marketing Officer</p>
+          <p>Specbee</p>
+        </div>
+
+        <div class="speaker-card" data-name="John Doe" data-title="CMO" data-company="Acme Corp"
+        data-description="An industry leader...">
+        <img src="https://img.freepik.com/premium-photo/technical-writer-digital-avatar-generative-ai_934475-9296.jpg?w=2000" alt="John Doe">
+        <h3>John Doe</h3>
+        <p>Chief Marketing Officer</p>
+        <p>joybee</p>
+      </div>
+
+      <div class="speaker-card" data-name="John Doe" data-title="CMO" data-company="Acme Corp"
+      data-description="An industry leader...">
+      <img src="https://img.freepik.com/premium-photo/economist-digital-avatar-generative-ai_934475-9263.jpg?w=2000" alt="John Doe">
+      <h3>John Doe</h3>
+      <p>Chief Engagement Officer </p>
+      <p>panther</p>
+    </div>
+    
+    <div class="speaker-card" data-name="John Doe" data-title="CMO" data-company="Acme Corp"
+    data-description="An industry leader...">
+    <img src="https://img.freepik.com/premium-photo/investment-banker-digital-avatar-generative-ai_934475-9304.jpg" alt="John Doe">
+    <h3>John Doe</h3>
+    <p>Chief Marketing Officer</p>
+    <p>Specbee</p>
+  </div>
+        <div class="speaker-card" data-name="John Doe" data-title="Chief Marketing Officer" data-company="acqua"
+      data-description="An industry leader...">
+      <img src="https://img.freepik.com/premium-photo/sales-manager-digital-avatar-generative-ai_934475-9373.jpg" alt="John Doe">
+      <h3>John Doe</h3>
+      <p>Chief Marketing Officer</p>
+      <p>acqua</p>
+    </div>
+
+      </div>
+      <button class="carousel-control right" aria-label="Next">❯</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
